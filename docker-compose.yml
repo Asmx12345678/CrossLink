@@ -1,0 +1,10 @@
+services:
+  crosslink:
+    build:
+      context: .
+      args:
+        NS3_VERSION: "3.47"
+    image: crosslink:local
+    volumes:
+      - ./results:/workspace/results
+    command: ["demo"]

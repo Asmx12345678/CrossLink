@@ -1,0 +1,7 @@
+/build/
+/results/mobility-*.csv
+/results/routes-*.csv
+/results/smoke-*.csv
+/results/*.xml
+.DS_Store
+__pycache__/
