@@ -16,7 +16,8 @@
 只需要 Docker Desktop，无需真实无线硬件，也无需在宿主机安装 ns-3：
 
 ```bash
-cd /Users/shimengxing/Desktop/CrossLink
+git clone https://github.com/Asmx12345678/CrossLink.git
+cd CrossLink
 make demo
 ```
 
@@ -49,6 +50,10 @@ make manet-sweep   # ns-3 路由协议对比
 | LQSR | **99.89%** | **0.270** | **1.043** |
 
 在这组参数下，LQSR 相比 AODV 的 PDR 提高约 1.24 个百分点，平均时延降低约 41.8%。这些数值是特定仿真场景的结果，不应外推为所有网络条件下的普遍结论。
+
+![MANET 路由协议性能对比](results/routing-comparison.png)
+
+![OFDM 接收机性能对比](results/ofdm-equalizers.png)
 
 ## 系统结构
 
